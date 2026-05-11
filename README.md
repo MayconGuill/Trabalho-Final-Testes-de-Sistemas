@@ -3,9 +3,9 @@
 ## Sistema BiblioTech - Gerenciamento de Biblioteca
 
 **Disciplina:** Testes de Sistemas  
-**Período:** 2025.2  
+**Período:** 2026.1  
 **Tipo:** Em grupo (mesmo grupo do TCC)  
-**Data de Entrega:** 07/11/2025  
+**Data de Entrega:** 15/06/2026  
 **Valor:** 100 pontos
 
 ---
@@ -51,7 +51,7 @@ Este trabalho simula um cenário real de QA (Quality Assurance) onde vocês prec
 ### 1.3 Modalidade e Prazo
 
 - **Modalidade:** Em grupo (mesmo grupo do TCC)
-- **Data de Entrega:** 07/11/2025
+- **Data de Entrega:** 15/06/2026 
 - **Forma de Entrega:** Via repositório GitHub + Relatório em PDF ou Projeto completo com Relatório em PDF em uma pasta .zip
 
 **Penalidades por atraso:**
