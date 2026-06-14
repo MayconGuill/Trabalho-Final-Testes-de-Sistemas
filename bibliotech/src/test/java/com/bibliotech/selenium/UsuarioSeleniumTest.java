@@ -1,9 +1,9 @@
 package com.bibliotech.selenium;
 
+import com.bibliotech.config.BaseSeleniumConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -17,21 +17,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class UsuarioSeleniumTest {
-
-    public static WebDriver driver;
-
-    @BeforeEach
-    void init() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
-        options.addArguments("--remote-allow-origins=*");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--no-sandbox");
-
-        driver = new ChromeDriver(options);
-    }
-
+public class UsuarioSeleniumTest extends BaseSeleniumConfig {
     @Test
     void deveFazerLoginComSucesso() {
         driver.get("http://localhost:8080/login");

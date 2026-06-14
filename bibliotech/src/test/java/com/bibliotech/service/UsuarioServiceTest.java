@@ -62,7 +62,7 @@ class UsuarioServiceTest {
 
         assertThatThrownBy(() -> service.salvar(cpfInvalido))
                 .isInstanceOf(RuntimeException.class)
-                .hasMessage("CPF precisa conter 11 digitos");
+                .hasMessage("CPF inválido");
 
         verify(repository, never()).save(cpfInvalido);
     }
@@ -73,7 +73,7 @@ class UsuarioServiceTest {
 
         assertThatThrownBy(() -> service.salvar(cpfInvalido))
                 .isInstanceOf(RuntimeException.class)
-                .hasMessage("CPF precisa estar formatado corretamente");
+                .hasMessage("CPF inválido");
 
         verify(repository, never()).save(cpfInvalido);
     }
