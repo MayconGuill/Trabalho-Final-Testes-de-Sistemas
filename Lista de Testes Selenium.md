@@ -1,5 +1,4 @@
 | ID | Descrição do Teste | Fluxo a Testar | Requisito |
-|----|-------------------|----------------|----------------|--------------|
 | TS-001 | Deve realizar login com credenciais válidas | Login → Dashboard | RF-15 |
 | TS-002 | Deve cadastrar novo usuário com sucesso | Usuarios → Novo → Preencher → Salvar | RF-02 |
 | TS-003 | Deve exibir mensagem de erro quando email já existir | Usuarios → Novo → Preencher → Salvar | RN-10 |
